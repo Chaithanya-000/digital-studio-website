@@ -1,0 +1,111 @@
+/* Trust Section Styles */
+.trust-section {
+  padding: 80px 0;
+  position: relative;
+  background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.trust-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 50px auto;
+}
+
+.trust-title {
+  font-size: clamp(1.85rem, 3vw, 2.35rem);
+  letter-spacing: -0.025em;
+  margin-bottom: 12px;
+}
+
+.trust-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.trust-card {
+  position: relative;
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.trust-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(56, 189, 248, 0.1);
+}
+
+.trust-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.trust-icon {
+  color: var(--accent-blue);
+  transition: transform var(--transition-normal);
+}
+
+.trust-card:hover .trust-icon {
+  transform: scale(1.1);
+  color: #38bdf8;
+}
+
+.trust-index {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.trust-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.trust-card-desc {
+  font-size: 0.925rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.trust-card-bar {
+  margin-top: 20px;
+  width: 32px;
+  height: 2px;
+  background: var(--border-medium);
+  transition: width var(--transition-normal), background var(--transition-normal);
+}
+
+.trust-card:hover .trust-card-bar {
+  width: 50px;
+  background: var(--gradient-primary);
+}
+
+@media (max-width: 1024px) {
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+}
