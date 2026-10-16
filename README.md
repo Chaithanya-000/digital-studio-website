@@ -1,6 +1,6 @@
-# Nexora Digital Solutions 🚀
+# Digital Studio 🚀
 
-> Premium, modern SaaS-inspired digital agency website engineered for high-impact web presence, client acquisition, and freelance portfolio demonstration.
+> Premium, modern SaaS-inspired digital studio website engineered for high-impact web presence, client acquisition, and freelance portfolio demonstration.
 
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
@@ -11,7 +11,7 @@
 
 ## 🌟 Overview
 
-**Nexora Digital Solutions** is a production-grade, responsive digital agency website built with **React**, **Vite**, **CSS3**, and **Lucide Icons**. It showcases how modern frontend engineering principles—fluid typography, component-driven modularity, clean accessibility, and sub-second load times—can be united into a commercial portfolio experience.
+**Digital Studio** is a production-grade, responsive web platform built with **React**, **Vite**, **CSS3**, and **Lucide Icons**. It showcases how modern frontend engineering principles—fluid typography, component-driven modularity, clean accessibility, and sub-second load times—can be united into a commercial portfolio experience.
 
 ### Key Highlights
 - **Premium Design System**: Dark navy backdrop (`#070A13`), electric blue (`#38BDF8`), and violet (`#8B5CF6`) accents with subtle glows and glassmorphic cards.
@@ -20,6 +20,28 @@
 - **Deep Architectural Case Studies**: Interactive modals detailing problem statements, technical solutions, and performance metrics.
 - **Validated Inquiry Engine**: Client-side validated contact form with real-time feedback, accessible aria tags, and an honest demo success modal with backend integration guidance.
 - **Accessibility & Performance**: Native keyboard focus traps, skip links, semantic HTML5 structure, reduced-motion media query support, and zero bloated external UI frameworks.
+
+---
+
+## 🏷️ Customizing the Brand Name
+
+The branding is completely centralized in [`src/data/siteData.js`](src/data/siteData.js) under `BRAND_CONFIG`.
+When you choose your official company name, simply update the values:
+
+```javascript
+export const BRAND_CONFIG = {
+  name: 'Your Company Name',
+  shortName: 'YourBrand',
+  logoInitial: 'Y',
+  tagline: 'Engineering Digital Experiences That Drive Growth',
+  email: 'contact@yourdomain.com',
+  location: 'Remote Studio (Available Globally)',
+  workingHours: 'Mon – Fri: 09:00 – 18:00 UTC',
+  disclaimer: '...',
+  socials: [...]
+};
+```
+All navbar logos, footers, meta links, and copyright notices across the entire site will immediately reflect your new brand name.
 
 ---
 
@@ -36,7 +58,7 @@ nexora-digital/
     ├── App.jsx                # Root view, active section observer, and state routing
     ├── index.css              # Global design tokens, CSS reset, typography, and utilities
     ├── data/
-    │   └── siteData.js        # Structured content (Nav, Trust, Services, Projects, Process)
+    │   └── siteData.js        # Centralized BRAND_CONFIG and structured content
     └── components/
         ├── Navbar.jsx         # Sticky header with backdrop blur & responsive mobile drawer
         ├── Navbar.css
@@ -44,7 +66,7 @@ nexora-digital/
         ├── Hero.css
         ├── TrustSection.jsx   # 4 core architectural value propositions
         ├── TrustSection.css
-        ├── AboutSection.jsx   # Two-column agency narrative & interactive engineering blueprint
+        ├── AboutSection.jsx   # Two-column studio narrative & interactive engineering blueprint
         ├── AboutSection.css
         ├── ServicesSection.jsx # 6 specialized services with inquiry pre-fill triggers
         ├── ServicesSection.css
@@ -82,7 +104,7 @@ nexora-digital/
 
 ### Installation
 
-1. **Clone or navigate into the project directory**:
+1. **Navigate into the project directory**:
    ```bash
    cd nexora-digital
    ```
@@ -161,10 +183,6 @@ If deploying to Vercel or Netlify:
 2. Connect your Git repository with:
    - Build command: `npm run build`
    - Publish directory: `dist`
-
-### GitHub Pages
-1. Set `base: '/repo-name/'` in `vite.config.js`.
-2. Run `npm run build` and publish the `dist` directory via `gh-pages`.
 
 ---
 

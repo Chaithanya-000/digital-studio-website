@@ -60,7 +60,7 @@ export default function AboutSection() {
           {/* Left Column: Narrative Content */}
           <div className="about-content">
             <span className="section-tag">
-              <span className="section-tag-dot" /> About Nexora
+              <span className="section-tag-dot" /> About Our Studio
             </span>
 
             <h2 className="section-title">A Digital Partner for Your Next Big Idea.</h2>
@@ -68,9 +68,9 @@ export default function AboutSection() {
             <div className="about-concept-alert">
               <div className="alert-indicator" />
               <div>
-                <strong className="alert-heading">Modern Concept Agency & Portfolio Platform</strong>
+                <strong className="alert-heading">Digital Studio & Engineering Showcase</strong>
                 <p className="alert-text">
-                  Nexora is crafted to demonstrate production-grade frontend engineering, premium UI/UX standards, and modern web application architecture for client projects.
+                  This portfolio is crafted to demonstrate production-grade frontend engineering, premium UI/UX standards, and modern web application architecture for client projects.
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function AboutSection() {
             </p>
 
             <p className="about-paragraph">
-              At Nexora, we bridge the gap between creative visual design and software engineering discipline. We build bespoke digital experiences that communicate value with clarity, engage visitors with intuitive ergonomics, and convert traffic into qualified business opportunities.
+              At our digital studio, we bridge the gap between creative visual design and software engineering discipline. We build bespoke digital experiences that communicate value with clarity, engage visitors with intuitive ergonomics, and convert traffic into qualified business opportunities.
             </p>
 
             <div className="about-checklist">
@@ -124,7 +124,7 @@ export default function AboutSection() {
               <div className="studio-card-header">
                 <div className="studio-card-title-group">
                   <Terminal size={18} className="text-cyan" />
-                  <span className="studio-title">Nexora Engineering Blueprint</span>
+                  <span className="studio-title">Studio Engineering Blueprint</span>
                 </div>
                 <span className="badge badge-concept">Methodology</span>
               </div>

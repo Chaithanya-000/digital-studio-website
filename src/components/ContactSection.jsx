@@ -214,7 +214,7 @@ export default function ContactSection({ preselectedProject }) {
                     target="_blank"
                     rel="noreferrer"
                     className="social-btn"
-                    aria-label="Visit Nexora on GitHub (placeholder)"
+                    aria-label="Visit GitHub (placeholder)"
                   >
                     <GithubIcon size={18} />
                     <span>GitHub</span>
@@ -224,7 +224,7 @@ export default function ContactSection({ preselectedProject }) {
                     target="_blank"
                     rel="noreferrer"
                     className="social-btn"
-                    aria-label="Visit Nexora on LinkedIn (placeholder)"
+                    aria-label="Visit LinkedIn (placeholder)"
                   >
                     <LinkedinIcon size={18} />
                     <span>LinkedIn</span>
@@ -234,7 +234,7 @@ export default function ContactSection({ preselectedProject }) {
                     target="_blank"
                     rel="noreferrer"
                     className="social-btn"
-                    aria-label="Visit Nexora on Twitter/X (placeholder)"
+                    aria-label="Visit Twitter/X (placeholder)"
                   >
                     <TwitterIcon size={18} />
                     <span>Twitter/X</span>

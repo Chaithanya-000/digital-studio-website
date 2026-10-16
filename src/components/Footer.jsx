@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="footer-col footer-col-brand">
             <div className="footer-brand">
               <div className="brand-mark">
-                <span className="brand-mark-letter">N</span>
+                <span className="brand-mark-letter">{AGENCY_METADATA.logoInitial || 'D'}</span>
                 <div className="brand-mark-glow" />
               </div>
               <span className="brand-text">
@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
 
             <p className="footer-brand-desc">
-              Nexora Digital Solutions engineers high-performance web applications, responsive corporate sites, and modern design systems for forward-thinking organizations.
+              {AGENCY_METADATA.name} engineers high-performance web applications, responsive corporate sites, and modern design systems for forward-thinking organizations.
             </p>
 
             <div className="footer-status-pill">

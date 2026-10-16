@@ -315,18 +315,22 @@ export const BUDGET_RANGES = [
   'Undetermined / Need Consultation',
 ];
 
-export const AGENCY_METADATA = {
-  name: 'Nexora Digital Solutions',
-  shortName: 'Nexora',
+export const BRAND_CONFIG = {
+  name: 'Digital Studio',
+  shortName: 'Digital Studio',
+  logoInitial: 'D',
   tagline: 'Engineering Digital Experiences That Drive Growth',
-  email: 'hello@nexora-solutions.example',
-  location: 'Remote Studio (Global Client Base)',
+  email: 'hello@digitalstudio.example',
+  location: 'Remote Studio (Available Globally)',
   workingHours: 'Mon – Fri: 09:00 – 18:00 UTC',
   disclaimer:
-    'Nexora Digital Solutions is presented here as a modern digital agency concept and portfolio demonstration platform showcasing professional frontend engineering, component design systems, and responsive web architecture.',
+    'Digital Studio is a portfolio showcase and modern web engineering platform demonstrating production-grade frontend architecture, responsive design systems, and client delivery standards.',
   socials: [
-    { label: 'GitHub', href: 'https://github.com/example/nexora-digital', icon: 'Github' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/company/nexora-digital-example', icon: 'Linkedin' },
-    { label: 'X / Twitter', href: 'https://x.com/nexora_example', icon: 'Twitter' },
+    { label: 'GitHub', href: 'https://github.com/example/digital-studio', icon: 'Github' },
+    { label: 'LinkedIn', href: 'https://linkedin.com/company/digital-studio-example', icon: 'Linkedin' },
+    { label: 'X / Twitter', href: 'https://x.com/digitalstudio_ex', icon: 'Twitter' },
   ],
 };
+
+// Central export aliased for seamless consistency across components
+export const AGENCY_METADATA = BRAND_CONFIG;

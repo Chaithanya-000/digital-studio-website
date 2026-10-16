@@ -45,7 +45,7 @@ export default function ProjectsSection() {
                       <span className="dot dot-yellow" />
                       <span className="dot dot-green" />
                     </div>
-                    <span className="project-browser-title">preview.{project.id}.nexora.app</span>
+                    <span className="project-browser-title">preview.{project.id}.studio.app</span>
                     <span className="project-browser-badge">{project.previewTheme.tag}</span>
                   </div>
 

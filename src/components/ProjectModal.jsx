@@ -110,7 +110,7 @@ export default function ProjectModal({ project, onClose }) {
         {/* Modal Footer */}
         <div className="modal-footer">
           <p className="modal-disclaimer">
-            * This project architecture is designed by Nexora as a production-grade demonstration model.
+            * This project architecture is engineered as a production-grade demonstration model.
           </p>
           <button type="button" className="btn btn-secondary btn-sm" onClick={onClose}>
             Close Preview

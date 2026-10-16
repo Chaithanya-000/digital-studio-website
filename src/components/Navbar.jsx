@@ -60,17 +60,17 @@ export default function Navbar({ activeSection }) {
           href="#home"
           className="navbar-brand"
           onClick={(e) => handleNavClick(e, '#home')}
-          aria-label="Nexora Digital Solutions Home"
+          aria-label={`${AGENCY_METADATA.name} Home`}
         >
           <div className="brand-mark">
-            <span className="brand-mark-letter">N</span>
+            <span className="brand-mark-letter">{AGENCY_METADATA.logoInitial || 'D'}</span>
             <div className="brand-mark-glow"></div>
           </div>
           <span className="brand-text">
             {AGENCY_METADATA.shortName}
             <span className="brand-dot">.</span>
           </span>
-          <span className="brand-badge">Agency</span>
+          <span className="brand-badge">Studio</span>
         </a>
 
         {/* Desktop Navigation Links */}

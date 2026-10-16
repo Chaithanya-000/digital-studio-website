@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, Code, Eye, Sparkles, Zap, Smartphone, CheckCircle, Shield, Monitor, Layout, Cpu } from 'lucide-react';
+import { BRAND_CONFIG } from '../data/siteData';
 import './Hero.css';
 
 export default function Hero() {
@@ -23,7 +24,7 @@ export default function Hero() {
         <div className="hero-content">
           <div className="section-tag hero-badge">
             <span className="section-tag-dot"></span>
-            <span>Digital Product Agency & Frontend Engineering</span>
+            <span>Frontend Engineering & Digital Studio</span>
           </div>
 
           <h1 className="hero-title">
@@ -33,7 +34,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero-description">
-            Nexora crafts modern, high-performance web applications, bespoke business websites, and intuitive digital interfaces engineered for ambitious brands and growing businesses.
+            We craft modern, high-performance web applications, bespoke business websites, and intuitive digital interfaces engineered for ambitious brands and growing businesses.
           </p>
 
           <div className="hero-actions">
@@ -103,7 +104,7 @@ export default function Hero() {
 
               <div className="browser-url-bar">
                 <span className="url-lock">🔒</span>
-                <span className="url-text">https://nexora.digital/solutions/preview</span>
+                <span className="url-text">https://digitalstudio.preview/solutions</span>
               </div>
 
               <div className="browser-action-icon">
@@ -143,7 +144,7 @@ export default function Hero() {
                   </div>
 
                   <div className="mockup-hero-card">
-                    <div className="mockup-card-label">Nexora Enterprise Engine</div>
+                    <div className="mockup-card-label">Studio Enterprise Engine</div>
                     <div className="mockup-card-title">Responsive Design Token System</div>
                     <p className="mockup-card-desc">
                       Modular layout with fluid typography, adaptive breakpoints, and zero layout shifts.
@@ -187,9 +188,9 @@ export default function Hero() {
                   </div>
                   <pre className="mockup-code-block">
                     <code>
-                      <span className="code-kw">import</span> {'{ Component, State }'} <span className="code-kw">from</span> <span className="code-str">'@nexora/core'</span>;{'\n\n'}
+                      <span className="code-kw">import</span> {'{ Component, State }'} <span className="code-kw">from</span> <span className="code-str">'@studio/core'</span>;{'\n\n'}
                       <span className="code-comment">// Enterprise React architecture</span>{'\n'}
-                      <span className="code-kw">export default function</span> <span className="code-fn">NexoraPlatform</span>() {'{'}{'\n'}
+                      <span className="code-kw">export default function</span> <span className="code-fn">ModernPlatform</span>() {'{'}{'\n'}
                       {'  '}<span className="code-kw">return</span> ({'\n'}
                       {'    '}&lt;<span className="code-tag">ModernApplication</span>{'\n'}
                       {'      '}performance={<span className="code-str">"sub-second"</span>}{'\n'}
